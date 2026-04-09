@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => ({
       overlay: false,
     },
   },
-  base: '/digilabmx-digital-launchpad/',
+  base: process.env.CF_PAGES ? '/' : '/digilabmx-digital-launchpad/',
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
