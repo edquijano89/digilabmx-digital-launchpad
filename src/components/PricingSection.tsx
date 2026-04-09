@@ -4,41 +4,26 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const plans = [
   {
     name: "Básico",
-    price: "$4,999",
+    price: "$2000",
     period: "MXN",
     desc: "Ideal para empezar tu presencia digital",
-    features: ["Landing page profesional", "Diseño responsive", "SEO básico", "Hosting 1 año", "Soporte por email"],
+    features: ["Landing page profesional", "Diseño responsive", "SEO básico", "Hosting", "Pago único"],
     popular: false,
   },
   {
     name: "Profesional",
-    price: "$9,999",
+    price: "$3000",
     period: "MXN",
-    desc: "Para negocios que quieren vender más",
+    desc: "Para emprendedores y PyMES",
     features: [
       "Sitio web hasta 5 páginas",
-      "Chatbot con IA básico",
+      "Correo electrónico empresarial",
       "Integración WhatsApp",
       "SEO avanzado",
-      "Hosting 1 año",
-      "Soporte prioritario",
+      "Hosting",
+      "Pago único",
     ],
     popular: true,
-  },
-  {
-    name: "Enterprise",
-    price: "Cotización",
-    period: "personalizada",
-    desc: "Soluciones a la medida de tu empresa",
-    features: [
-      "Sitio web ilimitado",
-      "Chatbot IA avanzado",
-      "E-commerce completo",
-      "Integraciones a medida",
-      "Soporte 24/7",
-      "Capacitación incluida",
-    ],
-    popular: false,
   },
 ];
 
