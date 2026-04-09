@@ -15,13 +15,13 @@ const CTASection = () => {
           ¿Listo para digitalizar tu negocio?
         </h2>
         <p className="text-lg text-primary-foreground/80 max-w-xl mx-auto mb-10">
-          Agenda una consulta gratuita hoy y recibe una propuesta en 24 horas
+          Agenda una consulta y recibe una propuesta
         </p>
         <a
           href="#contacto"
           className="inline-flex items-center gap-2 bg-foreground text-background px-8 py-4 rounded-xl font-semibold text-lg hover:opacity-90 transition-all"
         >
-          Agendar consulta gratis
+          Agendar consulta 
         </a>
         <div className="flex items-center justify-center gap-6 mt-8">
           <a
@@ -33,12 +33,12 @@ const CTASection = () => {
             <MessageCircle size={20} /> WhatsApp
           </a>
           <a
-            href="https://instagram.com/digilabmx"
+            href="https://www.facebook.com/people/Digilabmx/61579950442991/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors"
           >
-            📸 Instagram
+            📸 Facebook
           </a>
         </div>
       </div>
