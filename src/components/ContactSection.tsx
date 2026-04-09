@@ -72,7 +72,7 @@ const ContactSection = () => {
               <option value="">Servicio de interés</option>
               <option value="web">Sitio Web Profesional</option>
               <option value="chatbot">Chatbot con IA</option>
-              <option value="ecommerce">E-commerce</option>
+              <option value="ecommerce">Landing page</option>
               <option value="mantenimiento">Mantenimiento y Soporte</option>
               <option value="otro">Otro</option>
             </select>
