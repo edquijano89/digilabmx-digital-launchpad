@@ -9,10 +9,10 @@ const values = [
 ];
 
 const stats = [
-  { value: "50+", label: "Proyectos entregados" },
-  { value: "40+", label: "Clientes satisfechos" },
-  { value: "3+", label: "Años en el mercado" },
-  { value: "20+", label: "Chatbots desplegados" },
+  { value: "", label: "Proyectos entregados" },
+  { value: "", label: "Clientes satisfechos" },
+  { value: "", label: "Años en el mercado" },
+  { value: "", label: "Chatbots desplegados" },
 ];
 
 const AboutSection = () => {
@@ -28,7 +28,7 @@ const AboutSection = () => {
               Somos <span className="text-primary">DigilabMX</span>
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              Somos una agencia digital mexicana apasionada por ayudar a pequeñas y medianas empresas a dar el salto digital. Combinamos diseño moderno con inteligencia artificial para crear herramientas que generan resultados reales.
+              Somos una agencia digital apasionada por ayudar a pequeñas y medianas empresas a dar el salto digital. Combinamos diseño moderno para crear herramientas que generan resultados.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               Creemos que cada negocio local merece una presencia digital profesional. Por eso hacemos que la tecnología sea accesible, rápida y efectiva.
