@@ -12,7 +12,7 @@ const Footer = () => {
               <span className="text-gradient">Digilab</span>MX
             </a>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Agencia digital mexicana especializada en sitios web profesionales y chatbots con inteligencia artificial para PyMEs.
+              Agencia digital especializada en sitios web profesionales y chatbots con inteligencia artificial para PyMEs.
             </p>
           </div>
           <div>
@@ -68,7 +68,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          © 2025 DigilabMX — Todos los derechos reservados
+          © 2026 DigilabMX — Todos los derechos reservados
         </div>
       </div>
     </footer>
