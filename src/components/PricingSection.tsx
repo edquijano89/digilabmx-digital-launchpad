@@ -5,7 +5,7 @@ const plans = [
   {
     name: "Básico",
     price: "$2000",
-    period: "MXN",
+    period: "MXN + IVA",
     desc: "Ideal para empezar tu presencia digital",
     features: ["Landing page profesional", "Diseño responsive", "SEO básico", "Hosting", "Pago único"],
     popular: false,
@@ -13,7 +13,7 @@ const plans = [
   {
     name: "Profesional",
     price: "$3000",
-    period: "MXN",
+    period: "MXN + IVA",
     desc: "Para emprendedores y PyMES",
     features: [
       "Sitio web hasta 5 páginas",
