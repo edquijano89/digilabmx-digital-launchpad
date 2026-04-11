@@ -3,16 +3,8 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const plans = [
   {
-    name: "Básico",
-    price: "$2000",
-    period: "MXN + IVA",
-    desc: "Ideal para empezar tu presencia digital",
-    features: ["Landing page profesional", "Diseño responsive", "SEO básico", "Hosting", "Pago único"],
-    popular: false,
-  },
-  {
     name: "Profesional",
-    price: "$3000",
+    price: "$2500",
     period: "MXN + IVA",
     desc: "Para emprendedores y PyMES",
     features: [
@@ -21,6 +13,7 @@ const plans = [
       "Integración WhatsApp",
       "SEO avanzado",
       "Hosting",
+      "Tráfico ilimitado",
       "Pago único",
     ],
     popular: true,
