@@ -4,11 +4,11 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const projects = [
   { name: "Restaurante", type: "web", category: "Sitio Web", color: "from-primary/80 to-accent/60" },
-  { name: "Clínica Dental", type: "chatbot", category: "Chatbot IA", color: "from-accent/80 to-primary/60" },
-  { name: "Boutique", type: "web", category: "E-commerce", color: "from-primary/70 to-blue-600/60" },
-  { name: "Gimnasio", type: "chatbot", category: "Chatbot IA", color: "from-cyan-500/80 to-primary/60" },
+  { name: "Clínica Dental", type: "web", category: "Sitio Web", color: "from-accent/80 to-primary/60" },
+  { name: "Boutique", type: "web", category: "Sitio Web", color: "from-primary/70 to-blue-600/60" },
+  { name: "Gimnasio", type: "web", category: "Sitio Web", color: "from-cyan-500/80 to-primary/60" },
   { name: "Despacho Legal", type: "web", category: "Sitio Web", color: "from-blue-700/80 to-accent/50" },
-  { name: "Veterinaria", type: "chatbot", category: "Chatbot + Web", color: "from-primary/80 to-cyan-400/60" },
+  { name: "Veterinaria", type: "web", category: "Sitio Web", color: "from-primary/80 to-cyan-400/60" },
 ];
 
 const filters = ["Todos",];
@@ -20,7 +20,6 @@ const PortfolioSection = () => {
   const filtered = projects.filter((p) => {
     if (active === "Todos") return true;
     if (active === "Sitios Web") return p.type === "web";
-    return p.type === "chatbot";
   });
 
   return (
