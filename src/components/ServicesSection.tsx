@@ -5,20 +5,20 @@ const services = [
   {
     icon: Monitor,
     title: "Sitios Web Profesionales",
-    desc: "Diseño responsive, optimizado para SEO, entrega en días. Tu presencia digital lista para vender.",
-    features: ["Landing pages", "E-commerce", "Portafolios", "Sitios corporativos"],
+    desc: "Diseño responsive, optimizado para SEO, entrega en días. Tu presencia digital lista.",
+    features: ["Landing pages", "Sitios Web", "Portafolios", "Sitios corporativos"],
   },
   {
     icon: MessageSquare,
     title: "Chatbots con IA",
-    desc: "Chatbots inteligentes entrenados con la información de tu negocio. Atienden, venden y captan leads.",
+    desc: "Chatbots inteligentes entrenados con la información de tu negocio. Atienden y captan leads.",
     features: ["Atención 24/7", "Integración WhatsApp", "Respuestas automáticas", "Captación de leads"],
   },
   {
     icon: Settings,
     title: "Mantenimiento y Soporte",
-    desc: "Actualización, hosting y soporte técnico continuo para que tu negocio nunca se detenga.",
-    features: ["Hosting incluido", "Actualizaciones", "Soporte técnico", "Monitoreo 24/7"],
+    desc: "Actualización y soporte técnico continuo para que tu negocio nunca se detenga.",
+    features: ["Hosting incluido", "Actualizaciones", "Soporte técnico", "Monitoreo"],
   },
 ];
 
