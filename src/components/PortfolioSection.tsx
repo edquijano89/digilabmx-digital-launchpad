@@ -3,15 +3,15 @@ import { ExternalLink } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const projects = [
-  { name: "Restaurante El Sabor", type: "web", category: "Sitio Web", color: "from-primary/80 to-accent/60" },
-  { name: "Clínica Dental Sonríe", type: "chatbot", category: "Chatbot IA", color: "from-accent/80 to-primary/60" },
-  { name: "Boutique Moda MX", type: "web", category: "E-commerce", color: "from-primary/70 to-blue-600/60" },
-  { name: "Gimnasio FitPro", type: "chatbot", category: "Chatbot IA", color: "from-cyan-500/80 to-primary/60" },
-  { name: "Despacho Legal Torres", type: "web", category: "Sitio Web", color: "from-blue-700/80 to-accent/50" },
-  { name: "Veterinaria PetCare", type: "chatbot", category: "Chatbot + Web", color: "from-primary/80 to-cyan-400/60" },
+  { name: "Restaurante", type: "web", category: "Sitio Web", color: "from-primary/80 to-accent/60" },
+  { name: "Clínica Dental", type: "chatbot", category: "Chatbot IA", color: "from-accent/80 to-primary/60" },
+  { name: "Boutique", type: "web", category: "E-commerce", color: "from-primary/70 to-blue-600/60" },
+  { name: "Gimnasio", type: "chatbot", category: "Chatbot IA", color: "from-cyan-500/80 to-primary/60" },
+  { name: "Despacho Legal", type: "web", category: "Sitio Web", color: "from-blue-700/80 to-accent/50" },
+  { name: "Veterinaria", type: "chatbot", category: "Chatbot + Web", color: "from-primary/80 to-cyan-400/60" },
 ];
 
-const filters = ["Todos", "Sitios Web", "Chatbots"];
+const filters = ["Todos",];
 
 const PortfolioSection = () => {
   const [active, setActive] = useState("Todos");
