@@ -3,8 +3,8 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const steps = [
   { icon: Search, num: "01", title: "Consulta", desc: "Analizamos tu negocio y necesidades" },
-  { icon: FileText, num: "02", title: "Propuesta", desc: "Te presentamos solución y presupuesto en 24h" },
-  { icon: Code, num: "03", title: "Desarrollo", desc: "Construimos tu solución digital" },
+  { icon: FileText, num: "02", title: "Propuesta", desc: "Te presentamos 3 opciones y presupuesto en 24h" },
+  { icon: Code, num: "03", title: "Desarrollo", desc: "Construimos tu sito web" },
   { icon: Rocket, num: "04", title: "Lanzamiento", desc: "Publicamos y te enseñamos a usarlo" },
 ];
 
