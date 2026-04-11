@@ -40,8 +40,8 @@ const PricingSection = () => {
           </h2>
         </div>
 
-        {/* 🔥 Contenedor centrado */}
-        <div className="flex justify-center">
+        {/* 🔥 CONTENEDOR CORREGIDO */}
+        <div className="w-full flex justify-center items-center">
           {plans.map((p) => (
             <div
               key={p.name}
