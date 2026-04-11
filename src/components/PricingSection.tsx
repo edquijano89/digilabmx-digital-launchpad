@@ -25,16 +25,27 @@ const PricingSection = () => {
 
   return (
     <section id="precios" className="py-24 bg-surface-light text-surface-light-foreground">
-      <div ref={ref} className={`container mx-auto px-4 ${isVisible ? "animate-fade-up" : "opacity-0"}`}>
+      <div
+        ref={ref}
+        className={`container mx-auto px-4 ${
+          isVisible ? "animate-fade-up" : "opacity-0"
+        }`}
+      >
         <div className="text-center mb-16">
-          <p className="text-primary font-semibold mb-2 uppercase tracking-wider text-sm">Precios</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Planes para cada negocio</h2>
+          <p className="text-primary font-semibold mb-2 uppercase tracking-wider text-sm">
+            Precios
+          </p>
+          <h2 className="text-3xl md:text-4xl font-bold">
+            Planes para cada negocio
+          </h2>
         </div>
-        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+
+        {/* 🔥 Contenedor centrado */}
+        <div className="flex justify-center">
           {plans.map((p) => (
             <div
               key={p.name}
-              className={`relative rounded-2xl p-8 border transition-all hover:-translate-y-1 ${
+              className={`relative w-full max-w-md rounded-2xl p-8 border transition-all hover:-translate-y-1 ${
                 p.popular
                   ? "bg-primary/5 border-primary/30 shadow-lg shadow-primary/10"
                   : "bg-background/50 border-border/30"
@@ -45,12 +56,17 @@ const PricingSection = () => {
                   Más popular
                 </span>
               )}
+
               <h3 className="text-xl font-bold mb-1">{p.name}</h3>
               <p className="text-sm text-muted-foreground mb-4">{p.desc}</p>
+
               <div className="mb-6">
                 <span className="text-4xl font-black">{p.price}</span>
-                <span className="text-muted-foreground text-sm ml-1">{p.period}</span>
+                <span className="text-muted-foreground text-sm ml-1">
+                  {p.period}
+                </span>
               </div>
+
               <ul className="space-y-3 mb-8">
                 {p.features.map((f) => (
                   <li key={f} className="flex items-center gap-2 text-sm">
@@ -59,6 +75,7 @@ const PricingSection = () => {
                   </li>
                 ))}
               </ul>
+
               <a
                 href="#contacto"
                 className={`block text-center py-3 rounded-xl font-semibold transition-all ${
@@ -72,6 +89,7 @@ const PricingSection = () => {
             </div>
           ))}
         </div>
+
         <p className="text-center text-muted-foreground mt-10">
           ¿Necesitas algo personalizado?{" "}
           <a href="#contacto" className="text-primary font-semibold">
