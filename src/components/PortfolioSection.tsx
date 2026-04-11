@@ -27,7 +27,7 @@ const PortfolioSection = () => {
       <div ref={ref} className={`container mx-auto px-4 ${isVisible ? "animate-fade-up" : "opacity-0"}`}>
         <div className="text-center mb-12">
           <p className="text-primary font-semibold mb-2 uppercase tracking-wider text-sm">Portafolio</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Nuestros proyectos</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Nuestras plantillas</h2>
         </div>
         <div className="flex justify-center gap-3 mb-12">
           {filters.map((f) => (
