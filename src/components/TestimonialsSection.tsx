@@ -4,27 +4,23 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const testimonials = [
   {
-    text: "DigilabMX transformó nuestro negocio. En dos semanas teníamos un sitio web profesional y un chatbot que atiende clientes por WhatsApp 24/7.",
-    name: "María González",
-    business: "Clínica Dental Sonríe",
+    text: "DigilabMX transformó nuestro negocio. En dos semanas teníamos un sitio web profesional.",
+    business: "Clínica Dental",
     avatar: "MG",
   },
   {
-    text: "Excelente servicio y muy rápidos. El chatbot con IA nos ayudó a captar 3x más leads en el primer mes. ¡Totalmente recomendados!",
-    name: "Carlos Ramírez",
-    business: "Gimnasio FitPro",
+    text: "Excelente servicio y muy rápidos. ¡Totalmente recomendados!",
+    business: "Gimnasio",
     avatar: "CR",
   },
   {
-    text: "Profesionales, atentos y con precios justos. Nuestro e-commerce quedó increíble y las ventas aumentaron desde la primera semana.",
-    name: "Ana López",
-    business: "Boutique Moda MX",
+    text: "Profesionales, atentos y con precios justos.",
+    business: "Boutique",
     avatar: "AL",
   },
   {
-    text: "El mejor equipo para digitalizar un negocio local. Nos entendieron perfectamente y entregaron todo antes de tiempo.",
-    name: "Roberto Sánchez",
-    business: "Despacho Legal Torres",
+    text: "El mejor equipo para digitalizar un negocio local.",
+    business: "Despacho Legal",
     avatar: "RS",
   },
 ];
