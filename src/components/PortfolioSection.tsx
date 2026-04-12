@@ -6,7 +6,7 @@ const projects = [
   { name: "Restaurante", type: "web", category: "Sitio Web", url: "https://plantilla1.digilabmx.com", color: "from-primary/80 to-accent/60" },
   { name: "Clínica Dental", type: "web", category: "Sitio Web", url: "https://plantilla2.digilabmx.com", color: "from-accent/80 to-primary/60" },
   { name: "Boutique", type: "web", category: "Sitio Web", url: "https://plantilla3.digilabmx.com", color: "from-primary/70 to-blue-600/60" },
-  { name: "Gimnasio", type: "web", category: "Sitio Web", url: "/gimnasio", color: "from-cyan-500/80 to-primary/60" },
+  { name: "Gimnasio", type: "web", category: "Sitio Web", url: "https://plantilla4.digilabmx.com", color: "from-cyan-500/80 to-primary/60" },
   { name: "Despacho Legal", type: "web", category: "Sitio Web", url: "/legal", color: "from-blue-700/80 to-accent/50" },
   { name: "Veterinaria", type: "web", category: "Sitio Web", url: "/veterinaria", color: "from-primary/80 to-cyan-400/60" },
 ];
